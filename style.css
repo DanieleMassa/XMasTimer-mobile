@@ -19,11 +19,11 @@ body{
 }
 .ttl-prc{
     color: linen;
-    font-size: 8rem;
+    font-size: 10rem;
     margin-bottom: 50px;
     text-shadow: 5px 5px 1px #000;
     text-align: center;
-    padding-right: 20%;
+    padding-right: 30%;
     background-color: transparent;
 }
 @media screen and (max-width: 768px){
@@ -74,5 +74,5 @@ body{
     margin: auto;
     width: 100%;
     padding: 10px;
-    padding-left: 30%;
+    padding-left: 28%;
 }
