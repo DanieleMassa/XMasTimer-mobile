@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+
+    background-image: url("https://dl.dropboxusercontent.com/s/iwu66bmjubm2q7a/AdobeStock_471815994.jpeg?dl=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ttl-prc{
+    color: linen;
+    font-size: 8rem;
+    margin-bottom: 50px;
+    text-shadow: 5px 5px 1px #000;
+    text-align: center;
+    padding-right: 20%;
+    background-color: transparent;
+}
+@media screen and (max-width: 768px){
+    .ttl-prc{
+        font-size: 3.5em;
+    }
+}
+.countdown{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 8rem;
+    background-color: transparent;
+}
+.countdown div{
+    width: 180px;
+    height: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: blue;
+    backdrop-filter: blur(20px);
+    border: 2px solid #ffffff30;
+    border-radius: 40px;
+    box-shadow: 0 10px 20px hsla(0, 0%, 0%, 0.4);
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+.countdown div h1{
+    font-size: 1em;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 4px;
+    background-color: transparent;
+}
+.countdown div span{
+    font-size: 2em;
+    background-color: transparent;
+}
+.container{
+  /*  padding-bottom: 5rem;*/
+    background-color: transparent;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    padding-left: 35%;
+}
