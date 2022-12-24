@@ -25,9 +25,7 @@ function countdown(){
     let uno = "1"
     
 
-    if(h1 == uno){
-        h1.innerText = "cavoletto di bruxelles";
-    }
+
 
 }
 
